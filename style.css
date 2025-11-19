@@ -52,6 +52,30 @@ main {
     font-weight: bold;
 }
 
+#list{
+    margin-top: 20px;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    padding: 5px;
+
+}
+
+
+
+
+.dltBtn {
+    background: red;
+    color: #fff;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
 #cover {
     border-radius: 15px;
 
