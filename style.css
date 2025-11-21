@@ -61,9 +61,32 @@ main {
     justify-content: space-between;
     border: 1px solid white;
     padding: 5px;
+    margin-bottom: 10px;
 
 }
 
+.item p{
+    width: 100%;
+}
+
+#totalAmount, #totalItem {
+  color: rgb(255, 255, 255); /* or any visible color */
+  margin-top: 10px;
+}
+
+#total{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#totalAmount{
+  order: 2;
+}
+
+#totalItem{
+    order:1 ;
+}
 
 
 
