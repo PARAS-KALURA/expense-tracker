@@ -99,9 +99,12 @@ main {
     cursor: pointer;
 }
 
+.dltBtn:hover{
+    background: rgb(133, 55, 55);
+}
+
 #cover {
     border-radius: 15px;
-
     background-color: rgb(12, 34, 53);
     height: 500px;
     padding: 20px;
@@ -117,14 +120,15 @@ main {
     height: 40px;
     cursor: pointer;
     font-size: 18px;
-    background-color: rgba(53, 174, 225, 0.712);
+    background-color: rgba(42, 160, 210, 0.712);
     width: 100%;
     outline: none;
     border: none;
+    color: white;
 }
 
 #btn:hover {
-    background-color: rgb(8, 208, 253);
+    background-color: rgb(76, 155, 173);
     transform: translateY(-2px);
 
 }
